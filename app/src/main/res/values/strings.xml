@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">SNEAKOO</string>
+
+    <string-array name="sneakers">
+        <item>Select a Sneaker (Recently Added) </item>
+        <item>NIKE AIR SHAKE NDESTRUKT</item>
+        <item>YEEZY BOOST 350 V2</item>
+        <item>ADIDAS ULTRA BOOST 3.0</item>
+        <item>ADIDAS NMD R1 GLITCH</item>
+        <item>NIKELAB VAPOR MAX</item>
+        <item>NIKE AIR MAX BW ULTRA</item>
+        <item>PUMA TSUGI SHINSEI</item>
+        <item>ASICS GEL-MAI</item>
+    </string-array>
+
+    <string-array name="leaked">
+        <item>BAPE X NEIGHBORHOOD X ADIDAS SUPERSTAR BOOST</item>
+        <item>NIKE ZOOM MADAIRNA VACHETTA TAN</item>
+        <item>NIKE AIR FORCE 1 SPECIAL FIELD GREY</item>
+        <item>ADIDAS ALPHA BOUNCE XENO TRIPLE BLACK</item>
+        <item>ADIDAS TUBULAR DOOM PRIMEKNIT WHITE BLACK</item>
+        <item>ADIDAS NMD R1 TRIPLE BLACK 3M</item>
+        <item>RONNIE FIEGX ASICS GEL LYTE III SALMON TOE</item>
+        <item>NEW BALANCE 991.5</item>
+        <item>NIKE AIR HUARACHE DUST VOLT</item>
+        <item>ADIDAS NMD CS2 PEARL GREY PRIMEKNIT</item>
+        <item>ALEXANDER WANG X ADIDAS AW RUN WHITE</item>
+        <item>NIKE AIR MAX 1 ULTRA 2.0 GPX GREEN</item>
+        <item>ALEXANDER WANG X ADIDAS AW RUN BLACK</item>
+    </string-array>
+
+</resources>

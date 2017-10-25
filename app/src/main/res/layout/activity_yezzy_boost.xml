@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dedede"
+    tools:context="com.madad.jinet.sneakoo.YeezyBoostActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YEEZY BOOST 350 V2 WHITE"
+        android:textSize="20sp"
+        android:textColor="#FF0E0E6E"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.036"
+        android:id="@+id/textView5"
+        android:layout_marginTop="19dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager3"
+        android:layout_width="500dp"
+        android:layout_height="250dp"
+        android:paddingBottom="25dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="25dp"
+        android:layout_below="@+id/textView5"
+        android:layout_centerHorizontal="true">
+    </android.support.v4.view.ViewPager>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Released On: 29th April, 2017"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#FF239406"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.036"
+        android:id="@+id/textView6"
+        android:layout_alignBottom="@+id/viewPager3"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price: £150"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#FFBD2D34"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.036"
+        android:id="@+id/textView7"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/textView6"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rate this Sneaker"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FF239406"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/textView7"
+        android:layout_centerHorizontal="true" />
+
+    <RatingBar
+        android:id="@+id/ratingBar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView44"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/rateText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFBD2D34"
+        android:layout_marginRight="6dp"
+        android:layout_marginEnd="6dp"
+        android:layout_alignBaseline="@+id/textView45"
+        android:layout_alignBottom="@+id/textView45"
+        android:layout_toLeftOf="@+id/textView45"
+        android:layout_toStartOf="@+id/textView45" />
+
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="stars rating submitted"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFBD2D34"
+        android:layout_below="@+id/ratingBar2"
+        android:layout_alignLeft="@+id/textView44"
+        android:layout_alignStart="@+id/textView44" />
+
+
+    <TextView
+        android:id="@+id/textView61"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#FF239406"
+        android:text="Where to buy? "
+        android:layout_below="@+id/rateText2"
+        android:layout_alignRight="@+id/textView45"
+        android:layout_alignEnd="@+id/textView45" />
+
+    <TextView
+        android:id="@+id/textView62"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView61"
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#FFBD2D34"
+        android:layout_marginTop="19dp"
+        android:text="Ebay (In Stock)"
+        android:onClick="browser3"/>
+
+    <TextView
+        android:id="@+id/textView63"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#FFBD2D34"
+        android:text="Out of stock everywhere in UK"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/textView62"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_alignStart="@+id/textView6" />
+
+
+
+
+
+</RelativeLayout>

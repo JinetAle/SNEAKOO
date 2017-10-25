@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dedede"
+    tools:context="com.madad.jinet.sneakoo.NikeAirShakeActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NIKE AIR SHAKE NDESTRUST BLACK WHITE"
+        android:textSize="16sp"
+        android:textColor="#FF0E0E6E"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.036"
+        android:id="@+id/textView2"
+        android:layout_marginTop="19dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager2"
+        android:layout_width="500dp"
+        android:layout_height="250dp"
+        android:paddingBottom="25dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="25dp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true">
+    </android.support.v4.view.ViewPager>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Released On: 28th April, 2017"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#FF239406"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.036"
+        android:id="@+id/textView3"
+        android:layout_alignBottom="@+id/viewPager2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price: £110"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#FFBD2D34"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.036"
+        android:id="@+id/textView4"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rate this Sneaker"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FF239406"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true" />
+
+    <RatingBar
+        android:id="@+id/ratingBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView42"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/rateText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFBD2D34"
+        android:layout_marginRight="6dp"
+        android:layout_marginEnd="6dp"
+        android:layout_alignBaseline="@+id/textView43"
+        android:layout_alignBottom="@+id/textView43"
+        android:layout_toLeftOf="@+id/textView43"
+        android:layout_toStartOf="@+id/textView43" />
+
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="stars rating submitted"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFBD2D34"
+        android:layout_below="@+id/ratingBar1"
+        android:layout_alignLeft="@+id/textView42"
+        android:layout_alignStart="@+id/textView42" />
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#FF239406"
+        android:text="Where to buy? "
+        android:layout_below="@+id/rateText1"
+        android:layout_alignRight="@+id/textView43"
+        android:layout_alignEnd="@+id/textView43" />
+
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView58"
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#FFBD2D34"
+        android:layout_marginTop="19dp"
+        android:text="Foot Locker UK (In Stock)"
+        android:onClick="browser1"/>
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#FFBD2D34"
+        android:text="Sneakersnstuff (In Stock)"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/textView59"
+        android:layout_alignRight="@+id/textView59"
+        android:layout_alignEnd="@+id/textView59"
+        android:onClick="browser2"/>
+
+
+</RelativeLayout>

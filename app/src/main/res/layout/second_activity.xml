@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="#dedede"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#FF0E0E6E"
+        android:textStyle="bold"
+        android:text="NEW RELEASES (COMING SOON)"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="320dp"
+        android:layout_height="180dp"
+        app:srcCompat="@drawable/upcoming1"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/textView26"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NOTIFY ME"
+        android:onClick="showNotification1"
+        android:layout_below="@+id/textView27"
+        android:layout_alignRight="@+id/imageView10"
+        android:layout_alignEnd="@+id/imageView10" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF239406"
+        android:textStyle="bold"
+        android:text="Jordan 1 Metallic Red"
+        android:layout_marginTop="6dp"
+        android:layout_below="@+id/imageView10"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#FFBD2D34"
+        android:textStyle="bold"
+        android:text="Release Date"
+        android:layout_below="@+id/textView27"
+        android:layout_alignLeft="@+id/imageView10"
+        android:layout_alignStart="@+id/imageView10" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price"
+        android:textSize="14sp"
+        android:textColor="#FFBD2D34"
+        android:textStyle="bold"
+        android:layout_above="@+id/textView31"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6th May, 2017"
+        android:textStyle="bold"
+        android:textColor="#FF0E0E6E"
+        android:layout_below="@+id/textView28"
+        android:layout_alignLeft="@+id/textView28"
+        android:layout_alignStart="@+id/textView28"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#FF0E0E6E"
+        android:text="£125"
+        android:layout_alignBaseline="@+id/textView30"
+        android:layout_alignBottom="@+id/textView30"
+        android:layout_alignRight="@+id/textView29"
+        android:layout_alignEnd="@+id/textView29" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="320dp"
+        android:layout_height="180dp"
+        app:srcCompat="@drawable/upcoming2"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/button2"
+        android:layout_alignRight="@+id/button2"
+        android:layout_alignEnd="@+id/button2" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jordan 4 Pure Money"
+        android:textColor="#FF239406"
+        android:textStyle="bold"
+        android:layout_below="@+id/imageView11"
+        android:layout_toRightOf="@+id/textView34"
+        android:layout_toEndOf="@+id/textView34" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Release Date"
+        android:textSize="14sp"
+        android:textColor="#FFBD2D34"
+        android:textStyle="bold"
+        android:layout_alignLeft="@+id/imageView11"
+        android:layout_alignStart="@+id/imageView11"
+        android:layout_alignTop="@+id/button" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="13th May, 2017"
+        android:textStyle="bold"
+        android:textColor="#FF0E0E6E"
+        android:layout_alignBottom="@+id/button"
+        android:layout_alignLeft="@+id/textView33"
+        android:layout_alignStart="@+id/textView33"
+        android:layout_marginBottom="6dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NOTIFY ME"
+        android:onClick="showNotification2"
+        android:layout_below="@+id/textView32"
+        android:layout_alignRight="@+id/imageView11"
+        android:layout_alignEnd="@+id/imageView11" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#FFBD2D34"
+        android:textStyle="bold"
+        android:text="Price"
+        android:layout_above="@+id/textView36"
+        android:layout_alignLeft="@+id/textView31"
+        android:layout_alignStart="@+id/textView31" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="£160"
+        android:textStyle="bold"
+        android:textColor="#FF0E0E6E"
+        android:layout_alignBaseline="@+id/textView34"
+        android:layout_alignBottom="@+id/textView34"
+        android:layout_alignLeft="@+id/textView35"
+        android:layout_alignStart="@+id/textView35" />
+
+
+</RelativeLayout>
